@@ -4,7 +4,6 @@
 #include<ctime>
 #include<iomanip>
 #include<windows.h> 
-#define int long long
 using namespace std;
 string color,kch,kch_wuqi,record[100010],record_wuqi[100010],record_changzhu[100010];
 const string changzhu[8]={"迪卢克","琴","刻晴","莫娜","七七","提纳里","迪希雅","梦见月瑞希"};
@@ -13,7 +12,7 @@ bool hh,wai,wai_wuqi,zb,fanhui,change_wuqi,kch_changzhu,record_wai[100010],recor
 int i,n,x,num4,k,num5,p5=6,p4=51,pwai=500,pro,pro_changzhu,num4xing,xiugai,numtot_5xing_wuqi,numtot_5xing,record_num[100010],record_num_wuqi[100010];
 int pro_or,p5_changzhu=6,p4_changzhu=51,num4_changzhu,num5_changzhu,numtot_changzhu,p4_wuqi=60,p5_wuqi=7,pwai_wuqi=750,num5_wuqi,num4_wuqi,num4xing_wuqi;
 int numtot_5xing_changzhu,record_num_changzhu[100010],num_changzhu;
-double average,averagexianding,wailv,chuhuolv,numxianding,numwai,numtot,numxianding_wuqi,numwai_wuqi,numtot_wuqi;
+double average,averagexianding,wailv,chuhuolv,numxianding,numwai,numtot,numxianding_wuqi,numwai_wuqi,numtot_wuq;
 int probability(){
 	return rand()%10+rand()%10*10+rand()%10*100+1;
 }
@@ -256,7 +255,7 @@ void record_output(bool x){
 		}
 	}
 }
-signed main(){
+int main(){
 	srand(time(0));
 	cout<<"╔═══════════════════════════════╗"<<endl; 
 	cout<<"║\033[1;36m ==【原神抽卡模拟器/测试版】== \033[0m║"<<endl;
