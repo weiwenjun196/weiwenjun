@@ -12,7 +12,7 @@ bool hh,wai,wai_wuqi,zb,fanhui,change_wuqi,kch_changzhu,record_wai[100010],recor
 int i,n,x,num4,k,num5,p5=6,p4=51,pwai=500,pro,pro_changzhu,num4xing,xiugai,numtot_5xing_wuqi,numtot_5xing,record_num[100010],record_num_wuqi[100010];
 int pro_or,p5_changzhu=6,p4_changzhu=51,num4_changzhu,num5_changzhu,numtot_changzhu,p4_wuqi=60,p5_wuqi=7,pwai_wuqi=750,num5_wuqi,num4_wuqi,num4xing_wuqi;
 int numtot_5xing_changzhu,record_num_changzhu[100010],num_changzhu;
-double average,averagexianding,wailv,chuhuolv,numxianding,numwai,numtot,numxianding_wuqi,numwai_wuqi,numtot_wuq;
+double average,averagexianding,wailv,chuhuolv,numxianding,numwai,numtot,numxianding_wuqi,numwai_wuqi,numtot_wuqi;
 int probability(){
 	return rand()%10+rand()%10*10+rand()%10*100+1;
 }
